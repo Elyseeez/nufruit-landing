@@ -1,0 +1,38 @@
+.header  {
+   height: 1116px;
+    background-image: url('../../assets/background/mainbg.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+
+     &__top { 
+         display:flex;
+     }
+     &__main {
+         font-size: 40px;
+         font-weight: 700;
+     }
+     &__icon { 
+         margin-left: 25px;
+     }
+     &__content { 
+         margin-top: 200px;
+     }
+     &__title { 
+         font-size: 80px;
+         color: #130F49;
+     }
+     &__subtitle { 
+         font-size: 26px;
+     }
+     &__butt { 
+         margin-top: 20px;
+        width: 186px;
+        height: 81px;
+        border-radius: 20px;
+        background-color: #130F49;
+        font-size: 22px;
+        border: none;
+        color: white;
+     }
+
+}
