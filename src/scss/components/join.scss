@@ -1,0 +1,21 @@
+.join { 
+    &__wrapper { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #D9F4FF;
+        border-radius: 56px;
+
+    }
+    &__inner { 
+        margin: 0 auto;
+        
+    }
+    &__title { 
+        font-size: 68px;
+        line-height: 63px;
+        margin-top: 185px;
+    }
+    &__icon { 
+        margin-top: 50px
+    }
+}

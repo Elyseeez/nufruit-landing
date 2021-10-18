@@ -13,7 +13,7 @@ function Calories () {
                     <div className="calories__text">
                         <h2 className="calories__title">Calories <br/> tracking.</h2>
                         <p className="calories__subtitle">Our Well Balanced goal is the one we recommend for most people. However, if you have specific dietary requirements.</p>
-                        <div className="header__icon"> <Link to='#'>  <img src={store} alt="ourapp" /></Link></div>
+                        <div className="calories__icon"> <Link to='#'>  <img src={store} alt="ourapp" /></Link></div>
                     </div>
                     <div className="calories__image">
                         <img src={kcal} alt="kcal" /> 
